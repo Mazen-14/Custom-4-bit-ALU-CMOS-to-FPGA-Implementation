@@ -1,4 +1,4 @@
-# 🔬 Custom 4-bit ALU — CMOS to FPGA Implementation
+<img width="434" height="326" alt="image" src="https://github.com/user-attachments/assets/b5d62b38-ee3f-4aee-b751-c8079ff01362" /># 🔬 Custom 4-bit ALU — CMOS to FPGA Implementation
 
 > **Complete RTL-to-Silicon Design Flow | 130nm CMOS | Verilog HDL | Vivado FPGA**
 
@@ -41,10 +41,10 @@ We designed and tested each module in 3 layers:
 
 ## Learned :
 
-📘 **CMOS Design Principles** — Transistor sizing, symmetry, layout compaction  
-🧮 **Modular RTL Architecture** — Clean layering of arithmetic, logic, and control  
-🧪 **Verification Flow** — Edge-case coverage, randomized testbenches, and assertions  
-🖥️ **FPGA Toolchain** — RTL to bitstream flow in **Vivado Design Suite**  
+**CMOS Design Principles** — Transistor sizing, symmetry, layout compaction  
+**Modular RTL Architecture** — Clean layering of arithmetic, logic, and control  
+**Verification Flow** — Edge-case coverage, randomized testbenches, and assertions  
+**FPGA Toolchain** — RTL to bitstream flow in **Vivado Design Suite**  
 
 ---
 
@@ -112,38 +112,45 @@ Below is a visual preview of the implemented gates and blocks.
 <table>
   <tr>
     <td align="center">
-      <img src="IMAGE_PATH/inverter.png" width="250"/><br/>
-      <b>Inverter Layout</b><br/>
+      <img src="Images/Inv_Sch.png" width="250"/><br/>
+      <b>Inverter Schematic</b><br/>
       Basic NOT gate using symmetric CMOS design
     </td>
     <td align="center">
-      <img src="IMAGE_PATH/nand.png" width="250"/><br/>
-      <b>NAND Gate Layout</b><br/>
-      Pull-up/pull-down optimized
+      <img src="Images/Inv_Layout.png.png" width="250"/><br/>
+      <b>Inverter Layout</b><br/>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMAGE_PATH/xor.png" width="250"/><br/>
-      <b>XOR Gate Layout</b><br/>
-      XOR using transmission gates
+      <img src="Images/Mux_Sch.png" width="250"/><br/>
+      <b>Mux Schematic</b><br/>
+      MUX using PTL Design
     </td>
     <td align="center">
-      <img src="IMAGE_PATH/half_adder.png" width="250"/><br/>
-      <b>Half Adder Schematic</b><br/>
-      Combines XOR and AND logic
+      <img src="Images/Mux_Layout.png" width="250"/><br/>
+      <b>Mux Layout</b><br/>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMAGE_PATH/full_adder.png" width="250"/><br/>
-      <b>Full Adder Layout</b><br/>
-      Optimized gate-level full adder
+      <img src="Images/Flipflop_Sch.png" width="250"/><br/>
+      <b>Flipflop Schematic</b><br/>
+      D Flipflop
     </td>
     <td align="center">
-      <img src="IMAGE_PATH/mux2x1.png" width="250"/><br/>
-      <b>2x1 MUX Layout</b><br/>
-      Transmission gate multiplexer
+      <img src="Images/Flipflop_Layout.png" width="250"/><br/>
+      <b>Flipflop Layout</b><br/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/Fulladder_Sch.png" width="250"/><br/>
+      <b>Fulladder Schematic</b><br/>
+    </td>
+    <td align="center">
+      <img src="Images/Fulladder_Layout.png" width="250"/><br/>
+      <b>Fulladder Layout</b><br/>
     </td>
   </tr>
 </table>
