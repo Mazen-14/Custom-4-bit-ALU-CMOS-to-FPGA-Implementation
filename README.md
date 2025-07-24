@@ -117,7 +117,7 @@ Below is a visual preview of the implemented gates and blocks.
       Basic NOT gate using symmetric CMOS design
     </td>
     <td align="center">
-      <img src="Images/Inv_Layout.png.png" width="250"/><br/>
+      <img src="Images/Inv_Layout.png" width="250"/><br/>
       <b>Inverter Layout</b><br/>
     </td>
   </tr>
@@ -145,11 +145,11 @@ Below is a visual preview of the implemented gates and blocks.
   </tr>
   <tr>
     <td align="center">
-      <img src="Images/Fulladder_Sch.png" width="250"/><br/>
+      <img src="Images/Full_Adder_Sch.png" width="250"/><br/>
       <b>Fulladder Schematic</b><br/>
     </td>
     <td align="center">
-      <img src="Images/Fulladder_Layout.png" width="250"/><br/>
+      <img src="Images/Full_Adder_Layout.png" width="250"/><br/>
       <b>Fulladder Layout</b><br/>
     </td>
   </tr>
