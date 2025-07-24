@@ -22,9 +22,8 @@ We designed and tested each module in 3 layers:
 | Folder                   | Contents |
 |--------------------------|----------|
 | `/Transistor_Design/`    | CMOS-level designs created using **Cadence Virtuoso** (on Linux) |
-| `/Verilog_Code/`         | RTL implementations in Verilog |
-| `/Testbenches/`          | Self-checking testbenches written in Verilog |
-| `/FPGA_Results/`         | Simulation and implementation results from Vivado |
+| `/Verilog/`              | RTL implementations in Verilog, Self-checking testbenches written in Verilog, and FPGA source code |
+| `/Images/`               | Some examples of the schematics and layouts of some gates and blocks |
 ---
 
 ## Key Achievements
