@@ -1,4 +1,4 @@
-<img width="434" height="326" alt="image" src="https://github.com/user-attachments/assets/b5d62b38-ee3f-4aee-b751-c8079ff01362" /># 🔬 Custom 4-bit ALU — CMOS to FPGA Implementation
+# 🔬 Custom 4-bit ALU — CMOS to FPGA Implementation
 
 > **Complete RTL-to-Silicon Design Flow | 130nm CMOS | Verilog HDL | Vivado FPGA**
 
