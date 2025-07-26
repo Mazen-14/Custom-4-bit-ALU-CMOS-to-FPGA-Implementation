@@ -33,8 +33,7 @@ We designed and tested each module in 3 layers:
 ✅ Built a pipelined synchronous datapath using **D Flip-Flops**  
 ✅ Verified with **5000+ randomized test cases** via self-checking testbenches  
 ✅ Achieved functional FPGA implementation at **up to 142 MHz clock**  
-✅ Optimized switching activity and **reduced dynamic power to ~390.2 μW** 
-    (Achiving the first place on our class as the least consumed power) 
+✅ Optimized switching activity and **reduced dynamic power to ~390.2 μW** (Achiving the first place on our class as the least consumed power) 
 ✅ Simulated using QuestaSim & Vivado for functional + post-synthesis verification  
 
 ---
